@@ -1,0 +1,16 @@
+{
+  "arrowParens": "avoid",
+  "jsxSingleQuote": false,
+  "semi": true,
+  "useTabs": true,
+  "trailingComma": "none",
+  "tabWidth": 4,
+  "printWidth": 120,
+  "singleQuote": false,
+  "importOrder": [
+    "^@core/(.*)$",
+    "^@server/(.*)$",
+    "^@ui/(.*)$",
+    "^[./]"
+  ]
+}
