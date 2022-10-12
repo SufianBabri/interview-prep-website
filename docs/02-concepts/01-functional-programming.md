@@ -46,21 +46,21 @@ A function which returns the same result for the same argument.
 Benefits of Pure Functions:
 
 -   Self-documenting (they only rely on the arguments passed)
--   Easily testable (we don’t need to set global state before calling them)
--   Concurrency (don’t rely on global variables)
+-   Easily testable (we don't need to set global state before calling them)
+-   Concurrency (don't rely on global variables)
 -   Cacheable (for the same argument, they give the same result)
 
 ## Immutability
 
-An **immutable** object is an object that can’t be modified after it’s created. Conversely, a **mutable** object is any
-object which can be modified after it’s created.
+An **immutable** object is an object that can't be modified after it's created. Conversely, a **mutable** object is any
+object which can be modified after it's created.
 
 Benefits of immutability:
 
 -   Predictability (if we pass an object to a function, we are sure that that object will not get changed)
 -   Faster change detection (to update a property, a new object needs to be created. This means that it can be easily
     detected using object comparison)
--   Concurrency (if we know that the function doesn’t mutate data, we can safely call it in parallel)
+-   Concurrency (if we know that the function doesn't mutate data, we can safely call it in parallel)
 
 Drawbacks of immutability:
 

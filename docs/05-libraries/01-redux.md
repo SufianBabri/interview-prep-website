@@ -58,4 +58,4 @@ function reducer(state = [], action) {
 
 ## Command Flow
 
-![Example banner](../assets/redux-command-flow.png)
+![Redux command flow](../assets/redux-command-flow.png)
